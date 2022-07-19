@@ -1,0 +1,5 @@
+C:\Users\Андрей\source\repos\MySerialize\MySerialize\obj\Debug\net5.0\MySerialize.csproj.AssemblyReference.cache
+C:\Users\Андрей\source\repos\MySerialize\MySerialize\obj\Debug\net5.0\MySerialize.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Андрей\source\repos\MySerialize\MySerialize\obj\Debug\net5.0\MySerialize.AssemblyInfoInputs.cache
+C:\Users\Андрей\source\repos\MySerialize\MySerialize\obj\Debug\net5.0\MySerialize.AssemblyInfo.cs
+C:\Users\Андрей\source\repos\MySerialize\MySerialize\obj\Debug\net5.0\MySerialize.csproj.CoreCompileInputs.cache

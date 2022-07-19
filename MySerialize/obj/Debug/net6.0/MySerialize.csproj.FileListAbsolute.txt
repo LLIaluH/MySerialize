@@ -1,0 +1,15 @@
+C:\Users\Андрей\source\repos\MySerialize\MySerialize\bin\Debug\net6.0\MySerialize.exe
+C:\Users\Андрей\source\repos\MySerialize\MySerialize\bin\Debug\net6.0\MySerialize.deps.json
+C:\Users\Андрей\source\repos\MySerialize\MySerialize\bin\Debug\net6.0\MySerialize.runtimeconfig.json
+C:\Users\Андрей\source\repos\MySerialize\MySerialize\bin\Debug\net6.0\MySerialize.dll
+C:\Users\Андрей\source\repos\MySerialize\MySerialize\bin\Debug\net6.0\MySerialize.pdb
+C:\Users\Андрей\source\repos\MySerialize\MySerialize\obj\Debug\net6.0\MySerialize.csproj.AssemblyReference.cache
+C:\Users\Андрей\source\repos\MySerialize\MySerialize\obj\Debug\net6.0\MySerialize.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Андрей\source\repos\MySerialize\MySerialize\obj\Debug\net6.0\MySerialize.AssemblyInfoInputs.cache
+C:\Users\Андрей\source\repos\MySerialize\MySerialize\obj\Debug\net6.0\MySerialize.AssemblyInfo.cs
+C:\Users\Андрей\source\repos\MySerialize\MySerialize\obj\Debug\net6.0\MySerialize.csproj.CoreCompileInputs.cache
+C:\Users\Андрей\source\repos\MySerialize\MySerialize\obj\Debug\net6.0\MySerialize.dll
+C:\Users\Андрей\source\repos\MySerialize\MySerialize\obj\Debug\net6.0\refint\MySerialize.dll
+C:\Users\Андрей\source\repos\MySerialize\MySerialize\obj\Debug\net6.0\MySerialize.pdb
+C:\Users\Андрей\source\repos\MySerialize\MySerialize\obj\Debug\net6.0\MySerialize.genruntimeconfig.cache
+C:\Users\Андрей\source\repos\MySerialize\MySerialize\obj\Debug\net6.0\ref\MySerialize.dll
