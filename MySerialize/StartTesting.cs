@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MySerialize
+﻿namespace MySerialize
 {
     public static class StartTesting
     {
@@ -80,8 +74,6 @@ namespace MySerialize
                 {
                     Console.WriteLine(e.Message);
                     Console.WriteLine("Press Enter to exit.");
-                    Console.Read();
-                    Environment.Exit(0);
                 }
                 second.Deserialize(fs);
 
