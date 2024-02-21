@@ -17,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{65AB2B0D-3741-4989-8B8D-6875E76ACE39}|MySerialize\\MySerialize.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\myserialize\\myserialize\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65AB2B0D-3741-4989-8B8D-6875E76ACE39}|MySerialize\\MySerialize.csproj|solutionrelative:myserialize\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6087BD72-A99B-4293-B555-2CCB40AC2AE0}|UnitTest\\UnitTest\\UnitTest.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\myserialize\\unittest\\unittest\\testserialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6087BD72-A99B-4293-B555-2CCB40AC2AE0}|UnitTest\\UnitTest\\UnitTest.csproj|solutionrelative:unittest\\unittest\\testserialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,20 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TestSerialize.cs",
-              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\MySerialize\\UnitTest\\UnitTest\\TestSerialize.cs",
-              "RelativeDocumentMoniker": "UnitTest\\UnitTest\\TestSerialize.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\MySerialize\\UnitTest\\UnitTest\\TestSerialize.cs",
-              "RelativeToolTip": "UnitTest\\UnitTest\\TestSerialize.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2022-07-19T11:36:46.302Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -52,7 +36,7 @@
               "RelativeDocumentMoniker": "MySerialize\\StartTesting.cs",
               "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\MySerialize\\MySerialize\\StartTesting.cs",
               "RelativeToolTip": "MySerialize\\StartTesting.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAuwDMAAAARAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAuwE0AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2022-07-19T11:08:33.405Z",
               "EditorCaption": ""
@@ -67,8 +51,7 @@
               "RelativeToolTip": "MySerialize\\ListRandom.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2022-07-19T10:53:27.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2022-07-19T10:53:27.034Z"
             },
             {
               "$type": "Document",
