@@ -1,4 +1,5 @@
 ﻿using MySerialize;
 
-StartTesting.StartTest();
+var res = StartTesting.StartTest();
+Console.WriteLine(res);
 Console.Read();

@@ -12,14 +12,12 @@
             ListNode temp = new ListNode();
             temp = Head;
 
-            //transform nodes into List
             do
             {
                 arr.Add(temp);
                 temp = temp.Next;
             } while (temp != null);
 
-            //write into file; data is modify for store index of .Random node
             using (StreamWriter w = new StreamWriter(s))
                 foreach (ListNode n in arr)
                     w.WriteLine(n.Data.ToString() + ":" + arr.IndexOf(n.Random).ToString());
@@ -33,7 +31,6 @@
             Head = temp;
             string line;
 
-            //try read file and create List of nodes
             try
             {
                 using (StreamReader sr = new StreamReader(s))
@@ -52,12 +49,9 @@
                         }
                     }
                 }
-
-                //declare Tail
                 Tail = temp.Previous;
                 Tail.Next = null;
 
-                //return refs to Random nodes and restore Data
                 foreach (ListNode n in arr)
                 {
                     n.Random = arr[Convert.ToInt32(n.Data.Split(':')[1])];
@@ -72,6 +66,14 @@
                 Console.Read();
                 Environment.Exit(0);
             }
+        }
+
+        public override bool Equals(object? obj)
+        {
+            return obj is ListRandom random &&
+                   Equals(Head.Data, random.Head.Data) &&
+                   Equals(Tail.Data, random.Tail.Data) &&
+                   Count == random.Count;
         }
     }
 }

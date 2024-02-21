@@ -10,7 +10,7 @@
             ListNode result = new ListNode();
             result.Previous = prev;
             result.Next = null;
-            result.Data = rand.Next(0, 100).ToString();
+            result.Data = rand.Next(0, 1000).ToString();
             prev.Next = result;
             return result;
         }
@@ -35,9 +35,9 @@
             string res = "";
             try
             {
-                ListNode head = new ListNode();
-                ListNode tail = new ListNode();
-                ListNode temp = new ListNode();
+                ListNode head = new();
+                ListNode tail;
+                ListNode temp;
 
                 head.Data = rand.Next(0, 1000).ToString();
 
@@ -54,18 +54,16 @@
                     temp = temp.Next;
                 }
 
-                //declare first List
-                ListRandom first = new ListRandom();
-                first.Head = head;
-                first.Tail = tail;
-                first.Count = length;
+                ListRandom firstList = new ListRandom();
+                firstList.Head = head;
+                firstList.Tail = tail;
+                firstList.Count = length;
 
-                //serialize it
                 FileStream fs = new FileStream("dat.dat", FileMode.OpenOrCreate);
-                first.Serialize(fs);
+                firstList.Serialize(fs);
+                fs.Close();
 
-                //deserialize in second List
-                ListRandom second = new ListRandom();
+                ListRandom secondList = new ListRandom();
                 try
                 {
                     fs = new FileStream("dat.dat", FileMode.Open);
@@ -75,10 +73,9 @@
                     Console.WriteLine(e.Message);
                     Console.WriteLine("Press Enter to exit.");
                 }
-                second.Deserialize(fs);
+                secondList.Deserialize(fs);
 
-                //if second.Tail`s data equals first.Tail`s data, we guess it`s OK
-                if (second.Tail.Data == first.Tail.Data)
+                if (firstList.Equals(secondList))
                     res = "Success";
             }
             catch 
