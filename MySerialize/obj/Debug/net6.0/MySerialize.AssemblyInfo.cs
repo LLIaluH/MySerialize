@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MySerialize")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a83a54fb8531be15936a8ee6600e3da4357bf89")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+576ae1ed53d3d678a6534eae2ce191df64fc0d66")]
 [assembly: System.Reflection.AssemblyProductAttribute("MySerialize")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MySerialize")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

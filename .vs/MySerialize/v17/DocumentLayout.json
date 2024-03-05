@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\MySerialize\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65AB2B0D-3741-4989-8B8D-6875E76ACE39}|MySerialize\\MySerialize.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\myserialize\\myserialize\\starttesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65AB2B0D-3741-4989-8B8D-6875E76ACE39}|MySerialize\\MySerialize.csproj|solutionrelative:myserialize\\starttesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{65AB2B0D-3741-4989-8B8D-6875E76ACE39}|MySerialize\\MySerialize.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\myserialize\\myserialize\\listrandom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65AB2B0D-3741-4989-8B8D-6875E76ACE39}|MySerialize\\MySerialize.csproj|solutionrelative:myserialize\\listrandom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65AB2B0D-3741-4989-8B8D-6875E76ACE39}|MySerialize\\MySerialize.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\myserialize\\myserialize\\listnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65AB2B0D-3741-4989-8B8D-6875E76ACE39}|MySerialize\\MySerialize.csproj|solutionrelative:myserialize\\listnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65AB2B0D-3741-4989-8B8D-6875E76ACE39}|MySerialize\\MySerialize.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\myserialize\\myserialize\\starttesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65AB2B0D-3741-4989-8B8D-6875E76ACE39}|MySerialize\\MySerialize.csproj|solutionrelative:myserialize\\starttesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65AB2B0D-3741-4989-8B8D-6875E76ACE39}|MySerialize\\MySerialize.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\myserialize\\myserialize\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65AB2B0D-3741-4989-8B8D-6875E76ACE39}|MySerialize\\MySerialize.csproj|solutionrelative:myserialize\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65AB2B0D-3741-4989-8B8D-6875E76ACE39}|MySerialize\\MySerialize.csproj|c:\\users\\\u0430\u043D\u0434\u0440\u0435\u0439\\source\\repos\\myserialize\\myserialize\\listnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65AB2B0D-3741-4989-8B8D-6875E76ACE39}|MySerialize\\MySerialize.csproj|solutionrelative:myserialize\\listnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,48 +26,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "StartTesting.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\MySerialize\\MySerialize\\StartTesting.cs",
               "RelativeDocumentMoniker": "MySerialize\\StartTesting.cs",
               "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\MySerialize\\MySerialize\\StartTesting.cs",
               "RelativeToolTip": "MySerialize\\StartTesting.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAuwE0AAAAQAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAwwEAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2022-07-19T11:08:33.405Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ListRandom.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\MySerialize\\MySerialize\\ListRandom.cs",
               "RelativeDocumentMoniker": "MySerialize\\ListRandom.cs",
-              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\MySerialize\\MySerialize\\ListRandom.cs",
-              "RelativeToolTip": "MySerialize\\ListRandom.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\MySerialize\\MySerialize\\ListRandom.cs*",
+              "RelativeToolTip": "MySerialize\\ListRandom.cs*",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwBMAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2022-07-19T10:53:27.034Z"
+              "WhenOpened": "2022-07-19T10:53:27.034Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ListNode.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\MySerialize\\MySerialize\\ListNode.cs",
               "RelativeDocumentMoniker": "MySerialize\\ListNode.cs",
               "ToolTip": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\MySerialize\\MySerialize\\ListNode.cs",
               "RelativeToolTip": "MySerialize\\ListNode.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2022-07-19T10:53:17.655Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0434\u0440\u0435\u0439\\source\\repos\\MySerialize\\MySerialize\\Program.cs",
               "RelativeDocumentMoniker": "MySerialize\\Program.cs",
@@ -75,7 +76,8 @@
               "RelativeToolTip": "MySerialize\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2022-07-19T10:50:48.197Z"
+              "WhenOpened": "2022-07-19T10:50:48.197Z",
+              "EditorCaption": ""
             }
           ]
         }

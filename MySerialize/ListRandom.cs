@@ -1,4 +1,6 @@
-﻿namespace MySerialize
+﻿using System.Xml.Linq;
+
+namespace MySerialize
 {
     class ListRandom
     {
@@ -8,19 +10,17 @@
 
         public void Serialize(Stream s)
         {
-            List<ListNode> arr = new List<ListNode>();
-            ListNode temp = new ListNode();
-            temp = Head;
-
-            do
-            {
-                arr.Add(temp);
-                temp = temp.Next;
-            } while (temp != null);
-
+            ListNode temp = Head;
+            
             using (StreamWriter w = new StreamWriter(s))
-                foreach (ListNode n in arr)
-                    w.WriteLine(n.Data.ToString() + ":" + arr.IndexOf(n.Random).ToString());
+            {
+                while (temp != null)
+                {
+                    w.WriteLine(temp.Data.ToString() + ":" + getPosition(temp.Random).ToString());
+                    temp = temp.Next;
+                }
+                
+            }
         }
 
         public void Deserialize(Stream s)
@@ -74,6 +74,17 @@
                    Equals(Head.Data, random.Head.Data) &&
                    Equals(Tail.Data, random.Tail.Data) &&
                    Count == random.Count;
+        }
+
+        private int getPosition(ListNode node)
+        {
+            int position = 0;
+            while (node != Head)
+            {
+                node = node.Previous;
+                position++;
+            }
+            return position;
         }
     }
 }
